@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HomelyNursery</title>
+  <script src="https://use.fontawesome.com/57a1c6b54c.js"></script>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="logo.png">
+	<link rel="stylesheet" type="text/css" href="plants.css">
+  <script type="text/javascript" src="signin.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-expand-md bg-light navbar-light navbar-static-top">
+    <div class="container-fluid">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">
+    <img src="logo.jpg">
+  </a>
+ 
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#id1">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#id2">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#id3">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="product.html">Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="product.html">Contact</a>
+      </li>
+    </ul>
+    <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-outline-dark" type="submit">Search</button>
+    </form>&nbsp
+    <button class="btn btn-outline-dark" data-toggle="modal" data-target="#myModal" style="border: 2px solid grey;">
+    Sign in
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Sign in</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+            <form name="signinform" method="post" onsubmit="return validform()">
+  <!-- Email input -->
+  <div class="row mb-4">
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" name="user1" id="form3Example1" class="form-control" pattern="[a-z A-Z]{3,}" title="contain only alphabets"/>
+        <label class="form-label" for="form3Example1">First name</label>
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" name="user2" id="form3Example2" class="form-control" pattern="[a-z A-Z]{3,}" title="contain only alphabets"/>
+        <label class="form-label" for="form3Example2">Last name</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-outline mb-4">
+    <input type="email" id="form2Example1" class="form-control" />
+    <label class="form-label" for="form2Example1">Email address</label>
+  </div>
+
+  <!-- Password input -->
+  <div class="row mb-4">
+    <div class="col">
+      <div class="form-outline">
+        <input type="password" name="password" id="form3Example1" class="form-control" />
+        <label class="form-label" for="form3Example1">Password</label>
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-outline">
+        <input type="password" name="cpassword" id="form3Example2" class="form-control" />
+        <label class="form-label" for="form3Example2">Confrom Password</label>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2 column grid layout for inline styling -->
+
+  <!-- Submit button -->
+  <input type="submit" class="btn btn-primary btn-block mb-4" value="Sign in">
+
+  <!-- Register buttons -->
+  <div class="text-center">
+    <button type="button" class="btn btn-primary btn-floating mx-1">
+      <i class="fab fa-facebook-f"></i>
+    </button>
+
+    <button type="button" class="btn btn-primary btn-floating mx-1">
+      <i class="fab fa-google"></i>
+    </button>
+
+    <button type="button" class="btn btn-primary btn-floating mx-1">
+      <i class="fab fa-twitter"></i>
+    </button>
+
+    <button type="button" class="btn btn-primary btn-floating mx-1">
+      <i class="fab fa-github"></i>
+    </button>
+  </div>
+</form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-primary border-primary text-center" data-dismiss="modal">Close</button>
+        </div>
+  </div> 
+ </div> 
+</nav>
+</header>
+<!-----nav bar close------->
+<!-----main section ------->
+<div id="demo" class="carousel slide" data-ride="carousel" id="id1">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="img-fluid" src="main3.jpg" alt="Los Angeles">
+      <div class="carousel-caption">
+        <h1>Beautiful Nature</h1>
+        <p>We had such a great time in Nature</p>
+        <button class="btn btn-light border-light text-dark btn-lg">Viewmore</button>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img class="img-fluid" src="1.jpg" alt="Chicago" >   
+    </div>   
+    </div>
+  </div>
+</div>
+<!-----main section close------>
+<!-----our services ----->
+<div class="container-fluid" id="id3">
+         <div class="row jumbotron">
+                <div class="col-12">
+                    <!-- Section Heading -->
+                    <div class="section-heading text-center">
+                        <h2>OUR SERVICES</h2>
+                        <p>We provide the perfect service for you.</p>
+                    </div>
+                </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-6">
+      <h2>You know that....</h2>
+      <p style="justify-content: center;">
+        Adds indicators for the carousel. These are the little dots at the bottom of each slide (which indicates how many slides there are in the carousel, and which slide the user are currently viewing)Adds indicators for the carousel.
+      </p>
+      <p style="justify-content: center;">
+        Adds indicators for the carousel. These are the little dots at the bottom of each slideAdds indicators for the carousel. These are the little dots at the bottom of each slide
+      </p>
+      <p style="justify-content: center;">
+        which indicates how many slides there are in the carousel, and which slide the user are currently viewingAdds indicators for the carousel. These are the little dots at the bottom of each slide.
+      </p>
+      <p style="justify-content: center;">
+        which indicates how many slides there are in the carousel, and which slide the user are currently viewingAdds indicators for the carousel. These are the little dots at the bottom of each slide.
+      </p>
+      <p style="justify-content: center;">
+        which indicates how many slides there are in the carousel, and which slide the user are currently viewingAdds indicators for the carousel. These are the little dots at the bottom of each slide.
+      </p>
+      <br>
+    </div>
+    <div class="col-lg-6 col-xs-12" >
+      <img src="23.jpg" class="img-fluid" style="width: 100%; min-height: 100%;" style="border-radius: 20px;">
+    </div>
+  </div>  
+</div>
+</div>
+<!------our services end---->
+
+ <!---new arraival---->
+ <div class="container-fluid" id="id4">
+   <div class="jumbotron">
+     <h2 class="text-center">New Arrival</h2>
+     <p class="text-center">We have the latest products, it must be exciting for you</p>
+     <div class="container-fluid">
+  <div class="card-deck">
+    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+      <div class="card">
+        <a href="product.html" class="stretched-link"></a><img src="40.png" class="card-img-top" width="600" height="300" ></a>
+        <div class="card-body">
+          <p class="text-center">Cactus Flower</p>
+        </div>
+      </div>
+    </div>
+  <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+      <div class="card">
+        <a href="product.html" class="stretched-link"></a><img src="41.png" class="card-img-top" width="600" height="300"></a>
+        <div class="card-body">
+          <p class="text-center">Cactus Flower</p>
+        </div>
+      </div>
+    </div>
+   
+    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+      <div class="card">
+        <a href="product.html" class="stretched-link"></a><img src="42.png" class="card-img-top" width="600" height="300"></a>
+        <div class="card-body">
+          <p class="text-center">Cactus Flower</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+      <div class="card">
+        <a href="product.html" class="stretched-link"></a><img src="43.png" class="card-img-top" width="600" height="300"></a>
+        <div class="card-body">
+          <p class="text-center">Cactus Flower</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+ </div>
+<!---Best seller---->
+<div class="container-fluid">
+     <h2 class="text-center">Best Seller</h2>
+     <p class="text-center">We have the latest products, it must be exciting for you</p>
+     <div class="container-fluid">
+  <div class="card-deck">
+    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+      <div class="card">
+        <img src="44.png" class="card-img-top" width="600" height="300">
+        <div class="card-body">
+          <p class="text-center">Cactus Flower</p>
+        </div>
+      </div>
+    </div>
+  <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+      <div class="card">
+        <img src="45.png"class="card-img-top" width="600" height="300">
+        <div class="card-body">
+          <p class="text-center">Cactus Flower</p>
+        </div>
+      </div>
+    </div>
+   
+    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+      <div class="card">
+        <img src="46.png" class="card-img-top" width="600" height="300">
+        <div class="card-body">
+          <p class="text-center">Cactus Flower</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+      <div class="card">
+        <img src="47.png" class="card-img-top" width="600" height="300">
+        <div class="card-body">
+          <p class="text-center">Cactus Flower</p>
+        </div>
+      </div>
+    </div>
+</div>
+  </div>
+ </div></br></br>
+
+<!---contact us----->
+  <div class="jumbotron" id="id5">
+    <div class="container">
+        <h2 class="text-center">Contact Us</h2><br>
+      <div class="row">
+        <div class="col-lg-6">
+           <form class="border border-dark" style="padding: 20px;">
+  <!-- Email input -->
+  <div class="row mb-4">
+    <div class="col">
+      <div class="form-outline">
+        <label class="form-label" for="form3Example1">First name</label>
+        <input type="text" id="form3Example1" class="form-control border border-dark" />
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-outline">
+        <label class="form-label" for="form3Example2">Last name</label>
+        <input type="text" id="form3Example2" class="form-control border border-dark" />
+      </div>
+    </div>
+  </div>
+  <div class="form-outline mb-4">
+    <label class="form-label" for="form2Example1">Email address</label>
+    <input type="email" id="form2Example1" class="form-control border border-dark" />
+  </div>
+
+  <!-- Adress input -->
+  <div class="form-outline mb-4">
+    <label class="form-label" for="form2Example1">Address</label>
+    <input type="text" id="form2Example1" class="form-control border border-dark" />
+  </div>
+
+  <!-- 2 column grid layout for inline styling -->
+<div class="row mb-4">
+    <div class="col">
+      <div class="form-outline">
+        <label class="form-label" for="form3Example1">State</label>
+        <input type="text" id="form3Example1" class="form-control border border-dark" />
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-outline">
+        <label class="form-label" for="form3Example2">City</label>
+        <input type="text" id="form3Example2" class="form-control border border-dark" />
+      </div>
+    </div>
+  </div>
+  <!-- Submit button -->
+  <button type="submit" class="btn btn-dark btn-block mb-4">Contact Us</button>
+
+  <!-- Register buttons -->
+  <div class="text-center">
+    <button type="button" class="btn btn-dark btn-floating mx-1">
+      <i class="fab fa-facebook-f"></i>
+    </button>
+
+    <button type="button" class="btn btn-dark btn-floating mx-1">
+      <i class="fab fa-google"></i>
+    </button>
+
+    <button type="button" class="btn btn-dark btn-floating mx-1">
+      <i class="fab fa-twitter"></i>
+    </button>
+
+    <button type="button" class="btn btn-dark btn-floating mx-1">
+      <i class="fab fa-github"></i>
+    </button>
+  </div>
+</form>
+        </div> 
+        
+        <div class="col-lg-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.0289942833815!2d83.35639671480293!3d17.837275687810493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a395b5a8517f6c7%3A0xa966656f0397e3a1!2sMarikivalasa%20Bus%20Stop!5e0!3m2!1sen!2sin!4v1658944249175!5m2!1sen!2sin" width="600" height="517" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div> 
+      </div>
+    </div>
+  </div> 
+  <!-----footer--->
+  <div class="footer">
+  </div>
+  <footer>
+   <h3 class="text-center"> &copy;Hariprasad</h3>
+  </footer>
+</body>
+</html>
