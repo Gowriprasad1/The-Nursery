@@ -1,0 +1,56 @@
+h1,h2,h3,h5,p{
+	font-family: Comic Sans MS;
+}
+span{
+	font-family: Comic Sans MS;
+}
+.navbar{
+	position: fixed;
+	top: 0;
+}
+.navbar-brand img{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+}
+.nav-link{
+	margin: 2px;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Comic Sans MS;
+	
+}
+.nav-link:hover{
+   background: grey;
+   display: inline-block;
+} 
+.form-inline input[type="text"]{
+	background: none;
+	outline: none;
+	box-shadow: none;
+	border: 2px solid grey;
+	color: grey;
+	font-weight: bold;
+}
+::placeholder{
+
+			text-align: left;
+			font-size: 17px;
+			font-family: Comic Sans MS;
+		}
+.carousel-caption{
+ 	position: absolute;
+ 	top: 60%;
+ 	transform: translateY(-50%);
+ }
+.carousel-caption h1{
+ 	float: left;
+ 	color: black;
+ }
+.form-inline .btn{
+	border: 2px solid grey;
+}
+.card{
+    box-shadow: 0 0 5px 0 rgba(22, 22, 26, .25);
+    transition: 2s;
+}
