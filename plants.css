@@ -1,0 +1,157 @@
+h2,p{
+	font-family: Comic Sans MS;
+}
+label{
+font-family: Comic Sans MS;
+}
+.navbar{
+	position: fixed;
+	top: 0;
+}
+.navbar-brand img{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+}
+.nav-link{
+	margin: 2px;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Comic Sans MS;
+	
+}
+.nav-link:hover{
+   background: grey;
+   display: inline-block;
+} 
+.form-inline input[type="text"]{
+	background: none;
+	outline: none;
+	box-shadow: none;
+	border: 2px solid grey;
+	color: grey;
+}
+::placeholder{
+
+			text-align: left;
+			font-size: 17px;
+			font-family: Comic Sans MS;
+		}
+   .carousel-caption{
+ 	position: absolute;
+ 	top: 60%;
+ 	transform: translateY(-50%);
+ }
+  .carousel-caption h1{
+ 	text-transform: uppercase;
+ 	font-size: 500%;
+ 	color: white;
+ 	font-family: Comic Sans MS;
+ }
+ .carousel-caption p{
+ 	font-weight: bold;
+ 	color: white;
+ 	font-size: 30px;
+ 	font-family: Comic Sans MS;
+ }
+ .form-inline .btn{
+	border: 2px solid grey;
+}
+ .form-outline input[type="text"],input[type="password"],input[type="email"]{
+ 	background: none;
+	outline: none;
+	box-shadow: none;
+	color: black;
+	font-family: Comic Sans MS;
+ }
+.footer{
+	background-image: url("24.jpg");
+	width: 100%;
+	height: 300px;
+}
+footer{
+	background-color: lightgray;
+     padding: 10px;
+}
+.card{
+    box-shadow: 0 0 5px 0 rgba(22, 22, 26, .25);
+}
+ @media (max-width: 768px){
+ 	.form-outline input[type="text"],input[type="password"],input[type="email"]{
+ 		font-size: 90%;
+ 	}
+ 	 .carousel-caption{
+ 	top: 55%;
+ }
+ .carousel-caption h1{
+ 	text-transform: uppercase;
+ 	font-size: 300%;
+ }
+ .carousel-caption .btn{
+ 	font-size: 95%;
+ 	padding: 8px 14px;
+ }
+ .display-4{
+ 	font-size: 200%;
+ 	margin-top: 10px;
+ }
+ .container-fluid h2{
+   font-size: 30px;
+ }
+
+ .form-inline input[type="text"]{
+	background: none;
+	outline: none;
+	box-shadow: none;
+	color: grey;
+	width: 300px;
+	margin-right: 5px;
+ }
+ iframe{
+ 	width: 510px;
+ 	height: 400px;
+ }
+}
+ @media (max-width: 576px){
+ 	.form-outline input[type="text"],input[type="password"],input[type="email"]{
+ 		font-size: 90%;
+ 	}
+
+  .carousel-caption{
+ 	top: 55%;
+ }
+ .carousel-caption h1{
+ 	text-transform: uppercase;
+ 	font-size: 200%;
+ }
+ .carousel-caption p{
+ 	font-size: 100%;
+ }
+
+ .carousel-caption .btn{
+ 	font-size: 90%;
+ 	padding: 4px 8px;
+ }
+ .navbar .btn{
+ 	font-size: 90%;
+ 	padding: 4px 8px;
+ }
+ .container-fluid h2{
+   font-size: 25px;
+ }
+ 
+ .form-inline input[type="text"]{
+	background: none;
+	outline: none;
+	box-shadow: none;
+	border: 2px solid grey;
+	color: grey;
+	width: 200px;
+	margin-right: 5px;
+	font-size: 90%;
+ }
+ iframe{
+ 	width: 390px;
+ 	height: 350px;
+ }
+}
